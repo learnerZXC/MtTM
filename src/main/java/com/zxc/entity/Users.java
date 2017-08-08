@@ -6,6 +6,17 @@ public class Users {
 	private int id;
 	private String userName;
 	private String password;
+	
+	public Users() {
+	}
+	
+	public Users(String userName, String password) {
+		super();
+		this.userName = userName;
+		this.password = password;
+	}
+	
+	
 	public int getId() {
 		return id;
 	}
